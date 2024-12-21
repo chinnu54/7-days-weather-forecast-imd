@@ -60,6 +60,6 @@ def get_weather_forecast(id):
                 "Maximum Temperature": maxT,
                 "Weather Description": desc
             })
-    print(forecast_data)
+    # print(forecast_data)
     return forecast_data
 
