@@ -37,7 +37,12 @@ def get_weather_forecast(id):
     # reteriveing all the rows
     rows=data.find_all('tr')
     # return rows_wise_data
-    forecast_data = []
+    forecast_data = [
+        {
+            "City ID ": "{id}",
+            "City " : Vijayawada,
+        }
+    ]
 
 # Loop through each row to extract data
     for row in rows:
